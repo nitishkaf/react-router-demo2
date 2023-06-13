@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: skyblue;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul > li:hover {
+  border-bottom: 2px solid black;
+}
+
+ul > li {
+  display: inline;
+  margin-left: 20px;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+}
